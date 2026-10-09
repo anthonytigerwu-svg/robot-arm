@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# KiCad backups / temp files
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+_autosave-*
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+
+# Slicer output (keep the STEP/STL, not the gcode)
+*.gcode
+*.bgcode
