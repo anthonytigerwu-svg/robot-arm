@@ -1,8 +1,3 @@
-# Robot Arm — Build Log
-
-Newest entries at the bottom. Short entries are fine; write the full format when something actually happened.
-
----
 
 ## Entry template (copy this for each day)
 
@@ -47,3 +42,15 @@ Newest entries at the bottom. Short entries are fine; write the full format when
 **Next steps**
 - Decide degrees of freedom, arm lengths, and servos.
 - Sketch the first version in CAD.
+- 
+
+### 2026-10-09 (Sat) — Testing gearboxes
+**Goal for today:** learn about different types of gears and gearboxes
+
+**What I did**
+- used solidworks to design and 3d print a herringbone (double hylindrical) plantery gearbox
+- had to print multiple because it was loose a lot
+- 5 planets
+
+**Next steps**
+- calibrate the exact size and gera ratio
