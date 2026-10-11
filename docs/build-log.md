@@ -59,3 +59,8 @@
 - 2026-10-09_herringbone-gearbox.webp
 
 ### 2026-10-010 (Sat)
+**What I did**
+- made a list of materials to purchase (motors, drivers, etc)
+
+**Next steps**
+- begin learning inverse kinemataics for 1 dof
