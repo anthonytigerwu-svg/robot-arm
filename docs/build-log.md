@@ -44,7 +44,7 @@
 - Sketch the first version in CAD.
 - 
 
-### 2026-10-09 (Sat) — Testing gearboxes
+### 2026-10-09 (Fri) — Testing gearboxes
 **Goal for today:** learn about different types of gears and gearboxes
 
 **What I did**
@@ -54,3 +54,8 @@
 
 **Next steps**
 - calibrate the exact size and gera ratio
+
+**Photos/files**
+- 2026-10-09_herringbone-gearbox.webp
+
+### 2026-10-010 (Sat)
