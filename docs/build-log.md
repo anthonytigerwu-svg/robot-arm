@@ -81,5 +81,6 @@
 - Choose a transmission for each joint
 - Learn dynamics (τ = Iα)
 - Begin inverse kinematics for 1 DOF
+- esp32 s3 pins
 
   
