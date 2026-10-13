@@ -64,3 +64,22 @@
 
 **Next steps**
 - begin learning inverse kinemataics for 1 dof
+
+  ### 2026-10-12 (Mon)
+**What I did**
+- Learned joint torque math (τ = F × r), sized for arm fully horizontal
+- Calculated sample arm torques: shoulder ≈ 4.8 kg·cm, elbow ≈ 1.4 kg·cm
+- Applied 2× safety factor vs. servo stall torque
+- Learned ways to cut torque: light tip, motors at base, counterbalancing
+- Learned gear ratio math (torque ×, speed ÷, P = τω)
+- Compared spur, herringbone, belt, and worm drives
+- Learned backlash (s = r × θ) and why the last stage matters most
+- Reviewed R4 WiFi pins and buses (UART, I2C, SPI, CAN, PWM)
+
+**Next steps**
+- Run torque calcs on the real arm and pick motors
+- Choose a transmission for each joint
+- Learn dynamics (τ = Iα)
+- Begin inverse kinematics for 1 DOF
+
+  
