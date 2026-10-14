@@ -83,7 +83,7 @@
 - Begin inverse kinematics for 1 DOF
 - esp32 s3 pins
 
-  ### 2026-10-13 (Tue)
+  ### 2026-10-13  (Tue)
 **What I did**
 - Learned why a NEMA 17 needs a driver (current, direction, inductive kickback)
 - Compared A4988, DRV8825, and TMC2209 drivers
