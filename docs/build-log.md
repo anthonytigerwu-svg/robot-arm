@@ -83,4 +83,22 @@
 - Begin inverse kinematics for 1 DOF
 - esp32 s3 pins
 
-  
+  ### 2026-10-13 (Tue)
+**What I did**
+- Learned why a NEMA 17 needs a driver (current, direction, inductive kickback)
+- Compared A4988, DRV8825, and TMC2209 drivers
+- Learned driver wiring: STEP/DIR/EN, VMOT, coil pairs, RESET to SLEEP
+- Picked ESP32-S3 pins (STEP 39, DIR 40, EN 21) and which pins to avoid on the N16R8
+- Learned the support parts: 100 µF VMOT cap, 10k EN pull-up, 3.3 V logic, common ground
+- Learned to set current limit with Vref (torque ≈ current)
+- Calculated microsteps and steps per degree with gearing
+- Wrote arm_stepper_v1.ino (AccelStepper, joint angles in degrees)
+- Learned how an H-bridge reverses current and why shoot-through is forbidden
+
+**Next steps**
+- Identify my driver and motor specs, then set Vref
+- Wire one NEMA 17 and run arm_stepper_v1.ino
+- Run torque calcs on the real arm and pick motors
+- Choose a transmission for each joint
+- Learn dynamics (τ = Iα)
+- Begin inverse kinematics for 1 DOF
