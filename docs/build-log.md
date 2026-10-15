@@ -113,3 +113,12 @@
 - Learned geometry beats material (stiffness grows with height³)
 - Learned printed-arm failure points: creep, motor heat, layer lines, printed axles
 - Chose filaments: PLA for prototypes, PETG for structural parts and motor mounts
+
+  **Next steps**
+- Read Ch. 3 (fastening and joining)
+- Run stress/deflection calcs on the real link dimensions and motor weights
+- Identify my driver and motor specs, then set Vref
+- Wire one NEMA 17 and run arm_stepper_v1.ino
+- Choose a transmission for each joint
+- Learn dynamics (τ = Iα)
+- Begin inverse kinematics for 1 DOF
