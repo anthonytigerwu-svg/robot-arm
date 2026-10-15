@@ -102,3 +102,14 @@
 - Choose a transmission for each joint
 - Learn dynamics (τ = Iα)
 - Begin inverse kinematics for 1 DOF
+
+### 2026-10-14 (Wed)
+**What I did**
+- Learned mechanical advantage (MA = F_out ÷ F_in; force up, distance down)
+- Finished Making Things Move Ch. 1 (simple machines) and took a practice test
+- Finished Ch. 2 (materials) and took a practice test
+- Learned stress, strain, stiffness vs. strength, and yield
+- Calculated bending stress in printed links (σ = Mc/I): box section ≈ 1.4 MPa vs. flat bar ≈ 24 MPa
+- Learned geometry beats material (stiffness grows with height³)
+- Learned printed-arm failure points: creep, motor heat, layer lines, printed axles
+- Chose filaments: PLA for prototypes, PETG for structural parts and motor mounts
