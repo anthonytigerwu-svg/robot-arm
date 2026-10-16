@@ -122,3 +122,5 @@
 - Choose a transmission for each joint
 - Learn dynamics (τ = Iα)
 - Begin inverse kinematics for 1 DOF
+
+  ### 2026-10-15 (Thu)
