@@ -131,3 +131,11 @@
 - Covered shaft connections: set screws on D-shafts, clamping hubs, flexible couplers
 - Covered heat-set inserts for printed parts and adhesives (strong in shear, weak in peel)
 - Learned pivot joints should use steel shafts through bearings, not printed pins
+- 
+- **Next steps**
+- Read the dynamics lesson (τ = Iα, inertia, motion profiles) and take its quiz
+- Begin inverse kinematics for 1 DOF
+- Run torque and stress calcs on the real arm's link lengths and motor weights
+- Identify my driver and motor specs, then set Vref
+- Wire one NEMA 17 and run arm_stepper_v1.ino
+- Choose a transmission for each joint
