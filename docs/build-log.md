@@ -124,3 +124,10 @@
 - Begin inverse kinematics for 1 DOF
 
   ### 2026-10-15 (Thu)
+  **What I did**
+- Finished Making Things Move Ch. 3 (fastening and joining) and took a practice test
+- Covered thread sizes (M3 × 0.5 × 10), clearance vs. tap holes, and bolts vs. screws
+- Covered vibration locking (nyloc nuts, threadlocker), washers, and press fits
+- Covered shaft connections: set screws on D-shafts, clamping hubs, flexible couplers
+- Covered heat-set inserts for printed parts and adhesives (strong in shear, weak in peel)
+- Learned pivot joints should use steel shafts through bearings, not printed pins
