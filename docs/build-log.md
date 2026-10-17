@@ -139,3 +139,17 @@
 - Identify my driver and motor specs, then set Vref
 - Wire one NEMA 17 and run arm_stepper_v1.ino
 - Choose a transmission for each joint
+
+### 2026-10-16 (Fri)
+**What I did**
+- Worked through the dynamics lesson: τ = Iα, degrees to radians, Iα vs. gravity torque
+- Learned trapezoidal motion timing (t = v/a, θ = ½at², area under the speed graph)
+- Learned reflected inertia (I ÷ N²) and the ~10:1 load-to-rotor inertia rule
+- Learned holding vs. pull-out vs. detent torque
+- Found papers on 5-DOF and low-cost 3D-printed arms to read
+
+**Next steps**
+- Take the dynamics quiz
+- Read the high school 5-DOF manipulator paper
+- Begin inverse kinematics for 1 DOF
+- Run calcs on the real arm and pick motors and transmissions
