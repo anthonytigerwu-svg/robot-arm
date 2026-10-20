@@ -165,3 +165,10 @@
 - Wrote arm_ik5_v1.ino (5-DOF IK over Serial with limit and FK checks; AI-generated, logged)
 - Combined both IK lessons into one page with an arm playground and a 5-DOF calculator
 
+**Next steps**
+- Run arm_ik_v1.ino and arm_ik5_v1.ino with my real link lengths and joint limits
+- Take the IK and dynamics self-checks
+- Combine IK with stepper code so the arm moves to a typed target
+- Add homing with limit switches
+- Pick a paper angle and draft a research question
+- Run calcs on the real arm and pick motors and transmissions
