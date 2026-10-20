@@ -153,3 +153,15 @@
 - Read the high school 5-DOF manipulator paper
 - Begin inverse kinematics for 1 DOF
 - Run calcs on the real arm and pick motors and transmissions
+
+### 2026-10-19 (Mon)
+**What I did**
+- Learned 5-DOF IK: base yaw, shoulder, elbow, wrist pitch, wrist roll
+- Learned to split the problem: base yaw (atan2), then 2-link IK in the arm's vertical plane
+- Learned to find the wrist center by stepping back from the tip along the approach angle φ
+- Learned wrist pitch = φ − (θ1 + θ2)
+- Worked example: block at (15, 10, 2) from above → base 33.69°, shoulder 41.35°, elbow −97.02°, wrist −34.33°
+- Learned practical issues: unreachable approach angles, joint limits, roll alignment, base singularity, shoulder offset
+- Wrote arm_ik5_v1.ino (5-DOF IK over Serial with limit and FK checks; AI-generated, logged)
+- Combined both IK lessons into one page with an arm playground and a 5-DOF calculator
+
