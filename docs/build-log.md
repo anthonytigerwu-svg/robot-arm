@@ -162,7 +162,7 @@
 - Learned wrist pitch = φ − (θ1 + θ2)
 - Worked example: block at (15, 10, 2) from above → base 33.69°, shoulder 41.35°, elbow −97.02°, wrist −34.33°
 - Learned practical issues: unreachable approach angles, joint limits, roll alignment, base singularity, shoulder offset
-- Wrote arm_ik5_v1.ino (5-DOF IK over Serial with limit and FK checks; AI-generated, logged)
+- Wrote arm_ik5_v1.ino (5-DOF IK over Serial with limit and FK checks)
 - Combined both IK lessons into one page with an arm playground and a 5-DOF calculator
 
 **Next steps**
@@ -173,4 +173,21 @@
 - Pick a paper angle and draft a research question
 - Run calcs on the real arm and pick motors and transmissions
 
-a
+### 2026-10-22 (Thu)
+**What I did**
+- Learned the full control pipeline: IK → limit check → angles to steps → synchronized move → drivers
+- Learned absolute step counts: steps = sign × θ × steps per degree (shoulder: 88.89 steps/°, ≈0.05 mm per step at the tip)
+- Learned limit-switch homing: NC wiring (fail-safe), fast/back-off/slow sequence, timeout, homing order
+- Learned to mount switches just outside the soft limits so a mid-move trip means an error
+- Planned pins for all 5 joints (STEP/DIR/limit), shared EN on GPIO 21
+- Learned synchronized moves: v_N = min(vmax/Δ), a_N = min(amax/Δ), so all joints finish together (example: 1.58 s)
+- Found that joint-space moves bow the tip outward (20 → 22.6 → 18 cm), which motivates Cartesian interpolation
+- Learned safe stopping: decelerate and hold vs. disabling drivers (arm drops)
+- Wrote arm_move_v1.ino (jog, homing, IK, synced moves, stop; AI-generated, logged)
+- Added Part 3 to the inverse kinematics lesson page
+
+**Next steps**
+- Fill in real geometry, gear ratios, switch angles, and limits in arm_move_v1.ino
+- Mount and wire limit switches (NC), then check directions with jog
+- Run homing and the first IK moves with the arm lifted clear
+- Learn Cartesian interpolation for straight-line gripper moves
