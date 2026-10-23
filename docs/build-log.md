@@ -172,3 +172,5 @@
 - Add homing with limit switches
 - Pick a paper angle and draft a research question
 - Run calcs on the real arm and pick motors and transmissions
+
+a
